@@ -12,7 +12,7 @@ class DataWrangler:
         '''
         removed_sp_char_Df = df
         removed_sp_char_Df['Wikipedia_Paragraphs'] = [re.sub(r"[^a-zA-Z0-9]+", ' ', doc) for doc in df['Wikipedia_Paragraphs']]
-        removed_sp_char_Df = removed_sp_char_Df[removed_sp_char_Df['Wikipedia_Paragraphs'].apply(len) > 2*len(query)]
+        #removed_sp_char_Df = removed_sp_char_Df[removed_sp_char_Df['Wikipedia_Paragraphs'].apply(len) > 2*len(query)]
         return removed_sp_char_Df
 
     def lemmatization(self,corpus):
