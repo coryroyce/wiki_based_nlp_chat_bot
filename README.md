@@ -10,7 +10,7 @@ NLP Chat Bot that dynamically locates wikipedia sources and applies NLP to answe
 - NLP question answering
 
 # Project Architecture Overview
-
+![](https://github.com/coryroyce/wiki_based_nlp_chat_bot/blob/main/reference/High_Level_Architecture.png)
 
 
 # Project Modules
