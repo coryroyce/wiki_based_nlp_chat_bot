@@ -4,6 +4,8 @@ NLP Chat Bot that dynamically locates wikipedia sources and applies NLP to answe
 
 **Deployment URL:** _https://cmpe256-q4uake3apq-uc.a.run.app_
 
+![](https://raw.githubusercontent.com/rameshavinash94/Wiki_QA_System/master/reference/demo_wikiqa.gif)
+
 # Project Overview
 - Chat Bot wrapper
 - Wikipedia content locator
